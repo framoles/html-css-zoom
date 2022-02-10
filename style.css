@@ -46,7 +46,6 @@ main{
 .cam{
     background-image: url("https://i.picsum.photos/id/1018/400/300.jpg?hmac=ia2G_9l0hP4-__G9SGtm-oB8obLBzgA2FTo45jndKDo");
     width: calc(100% / 7 - 5px);
-    height: calc(100% / 5 - 5px);
     background-size: 100% 100%;
     position: relative;
 }
@@ -63,7 +62,7 @@ footer{
     margin-top: 2rem;
     color: white;
     font-size: 3rem;
-    background-color: grey;
+    background-color: rgb(56, 56, 56);
     padding: 5px;
 }
 
@@ -72,8 +71,23 @@ footer nav{
     justify-content: space-between;
 }
 
+.ico{
+    display: inline-block;
+    
+    text-align: center;
+}
+
+.ico p{
+    font-size: small;
+}
+
 #end-call{
     color: red;
-    background-color: rgb(187, 177, 177);
+    background-color: grey;
     font-size: 1rem;
+}
+
+.fa-chevron-up{
+    font-size: small;
+    vertical-align: center;
 }
