@@ -3,3 +3,77 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* GENERAL CLASS */
+
+.bg-grey{
+    background-color: grey;
+}
+
+.c-white{
+    color: white;
+}
+
+body{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+header{
+    display: flex;
+    justify-content: flex-end;
+    gap: 1%;
+    margin: 1% 1% 0 0;
+}
+
+header > *{
+    padding: 0.3%;
+    border-radius: 5px;
+}
+
+
+main{
+    padding: 2% 4% 0;
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+    height: 100%;
+}
+
+.cam{
+    background-image: url("https://i.picsum.photos/id/1018/400/300.jpg?hmac=ia2G_9l0hP4-__G9SGtm-oB8obLBzgA2FTo45jndKDo");
+    width: calc(100% / 7 - 5px);
+    height: calc(100% / 5 - 5px);
+    background-size: 100% 100%;
+    position: relative;
+}
+
+.cam span{
+    color: white;
+    background-color: grey;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+footer{
+    margin-top: 2rem;
+    color: white;
+    font-size: 3rem;
+    background-color: grey;
+    padding: 5px;
+}
+
+footer nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+#end-call{
+    color: red;
+    background-color: rgb(187, 177, 177);
+    font-size: 1rem;
+}
